@@ -29,3 +29,5 @@ the "Route::get" thingy you can open it directly to see it in action or just vie
 the "Route::post" thingy you can open it but it will throw an error because it is a post and post parameter always needs something first like give me "something" before you can enter the place mentally unharmed.
 
 oh by the way the string data type is not what you think it was... yeah it does something when you do this thing "{{}}", "{{$anyvariablename}}" then it would result something else.
+
+laravel always love to log things so whenever you try to insert a data to MySQL DB it will message you column missing something yada yada "created-at" and "updated-at" if I remember correctly. It's either you create a column manually in your localhost/phpmyadmin thingy like a little w@nk or you can tell inside the class of your chosen model to f@#$ off by "$timestamps = false;".
